@@ -1,9 +1,9 @@
 #Title: AWAvenue Ads Rule (Only.Ads)
 #--------------------------------------
-#Total lines: 621
+#Total lines: 626
 #Version: 1.7.6-release
-#Update time: 2026-09-08 21:10:07 UTC+8
-#Update content: 新增拦截微博/美图/百度等广告与隐私上报域名#214，感谢@VJMOD
+#Update time: 2026-09-09 23:35:30 UTC+8
+#Update content: 移除广告主投放后台域名ad.weibo.com与iadworkbench.apple.com，此类后台不属拦截范围
 
 #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -50,7 +50,6 @@ domain, ad.shunchangzhixing.com
 domain, ad.tencentmusic.com
 domain, ad.toutiao.com
 domain, ad.v3mh.com
-domain, ad.weibo.com
 domain, ad.winrar.com.cn
 domain, ad.ximalaya.com
 domain, ad.xunkids.com
@@ -77,9 +76,11 @@ domain, adjust.cn
 domain, adjust.com
 domain, adks.hpplay.cn
 domain, adlink-api.huan.tv
+domain, adlog.vivo.com.cn
 domain, adm.funshion.com
 domain, admarketing.yahoo.net
 domain, admobile.top
+domain, adreq.vivo.com.cn
 domain, ads-api-o.api.leiniao.com
 domain, ads-api.tiktok.com
 domain, ads-api.twitter.com
@@ -188,7 +189,9 @@ domain, adx.appsdk.com.cn
 domain, adx.sogaha.cn
 domain, adx.tuia.cn
 domain, adxlog-adnet.vivo.com.cn
+domain, adxlog.vivo.com.cn
 domain, adxserver.ad.cmvideo.cn
+domain, adxstatic.vivo.com.cn
 domain, aem.dentsuchina.cn
 domain, afs.googlesyndication.com
 domain, agn.aty.sohu.com
@@ -251,6 +254,7 @@ domain, biz.weibo.com
 domain, bj-td-menta-01-callback.advlion.com
 domain, bj.ad.track.66mobi.com
 domain, bootpreload.uve.weibo.com
+domain, brandadsstatic.vivo.com.cn
 domain, bsrv.qq.com
 domain, business-api.tiktok.com
 domain, c.bidtoolads.com
@@ -297,6 +301,7 @@ domain, diagnosis.ad.xiaomi.com
 domain, doubleclick-cn.net
 domain, dsp-x.jd.com
 domain, dsp.fcbox.com
+domain, dsplog-adnet.vivo.com.cn
 domain, dxp.baidu.com
 domain, e.ad.xiaomi.com
 domain, eclick.baidu.com
@@ -356,7 +361,6 @@ domain, iadctest.qwapi.com
 domain, iadmoo.apple.com
 domain, iadmusicmat.music.126.net
 domain, iadsdk.apple.com
-domain, iadworkbench.apple.com
 domain, ifs.tanx.com
 domain, ii.gdt.qq.com
 domain, image-ad.sm.cn
@@ -568,6 +572,7 @@ domain, trace.aqyad.com
 domain, tracelog-debug.aiclk.com
 domain, tracelog-debug.qquanquan.com
 domain, tracelog-debug.yunxish.com
+domain, tracking-adnet.vivo.com.cn
 domain, tuiguang.meitu.com
 domain, tvapp.hpplay.cn
 domain, tx-ad.a.yximgs.com

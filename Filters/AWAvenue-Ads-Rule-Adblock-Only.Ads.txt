@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule (Only.Ads)
 !--------------------------------------
-!Total lines: 638
+!Total lines: 642
 !Version: 1.7.6-release
-!Update time: 2026-09-08 21:10:07 UTC+8
-!Update content: 新增拦截微博/美图/百度等广告与隐私上报域名#214，感谢@VJMOD
+!Update time: 2026-09-09 23:35:30 UTC+8
+!Update content: 移除广告主投放后台域名ad.weibo.com与iadworkbench.apple.com，此类后台不属拦截范围
 
 !Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 !License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -47,7 +47,6 @@
 ||ad.tencentmusic.com^
 ||ad.toutiao.com^
 ||ad.v3mh.com^
-||ad.weibo.com^
 ||ad.winrar.com.cn^
 ||ad.ximalaya.com^
 ||ad.xunkids.com^
@@ -74,9 +73,11 @@
 ||adjust.com^
 ||adks.hpplay.cn^
 ||adlink-api.huan.tv^
+||adlog.vivo.com.cn^
 ||adm.funshion.com^
 ||admarketing.yahoo.net^
 ||admobile.top^
+||adreq.vivo.com.cn^
 ||ads-api-o.api.leiniao.com^
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
@@ -185,7 +186,9 @@
 ||adx.sogaha.cn^
 ||adx.tuia.cn^
 ||adxlog-adnet.vivo.com.cn^
+||adxlog.vivo.com.cn^
 ||adxserver.ad.cmvideo.cn^
+||adxstatic.vivo.com.cn^
 ||aem.dentsuchina.cn^
 ||afs.googlesyndication.com^
 ||agn.aty.sohu.com^
@@ -248,6 +251,7 @@
 ||bj-td-menta-01-callback.advlion.com^
 ||bj.ad.track.66mobi.com^
 ||bootpreload.uve.weibo.com^
+||brandadsstatic.vivo.com.cn^
 ||bsrv.qq.com^
 ||business-api.tiktok.com^
 ||c.bidtoolads.com^
@@ -294,6 +298,7 @@
 ||doubleclick-cn.net^
 ||dsp-x.jd.com^
 ||dsp.fcbox.com^
+||dsplog-adnet.vivo.com.cn^
 ||dxp.baidu.com^
 ||e.ad.xiaomi.com^
 ||eclick.baidu.com^
@@ -353,7 +358,6 @@
 ||iadmoo.apple.com^
 ||iadmusicmat.music.126.net^
 ||iadsdk.apple.com^
-||iadworkbench.apple.com^
 ||ifs.tanx.com^
 ||ii.gdt.qq.com^
 ||image-ad.sm.cn^
@@ -565,6 +569,7 @@
 ||tracelog-debug.aiclk.com^
 ||tracelog-debug.qquanquan.com^
 ||tracelog-debug.yunxish.com^
+||tracking-adnet.vivo.com.cn^
 ||tuiguang.meitu.com^
 ||tvapp.hpplay.cn^
 ||tx-ad.a.yximgs.com^
@@ -646,4 +651,3 @@
 *-ad.video.yximgs.com*
 *-ad.wtzw.com*
 *-be-pack-sign.pglstatp-toutiao.com*
-*-normal.zijieapi.com*

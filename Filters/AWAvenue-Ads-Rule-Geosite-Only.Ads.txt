@@ -48,7 +48,6 @@ full:ad.shunchangzhixing.com
 full:ad.tencentmusic.com
 full:ad.toutiao.com
 full:ad.v3mh.com
-full:ad.weibo.com
 full:ad.winrar.com.cn
 full:ad.ximalaya.com
 full:ad.xunkids.com
@@ -75,9 +74,11 @@ full:adjust.cn
 full:adjust.com
 full:adks.hpplay.cn
 full:adlink-api.huan.tv
+full:adlog.vivo.com.cn
 full:adm.funshion.com
 full:admarketing.yahoo.net
 full:admobile.top
+full:adreq.vivo.com.cn
 full:ads-api-o.api.leiniao.com
 full:ads-api.tiktok.com
 full:ads-api.twitter.com
@@ -186,7 +187,9 @@ full:adx.appsdk.com.cn
 full:adx.sogaha.cn
 full:adx.tuia.cn
 full:adxlog-adnet.vivo.com.cn
+full:adxlog.vivo.com.cn
 full:adxserver.ad.cmvideo.cn
+full:adxstatic.vivo.com.cn
 full:aem.dentsuchina.cn
 full:afs.googlesyndication.com
 full:agn.aty.sohu.com
@@ -249,6 +252,7 @@ full:biz.weibo.com
 full:bj-td-menta-01-callback.advlion.com
 full:bj.ad.track.66mobi.com
 full:bootpreload.uve.weibo.com
+full:brandadsstatic.vivo.com.cn
 full:bsrv.qq.com
 full:business-api.tiktok.com
 full:c.bidtoolads.com
@@ -295,6 +299,7 @@ full:diagnosis.ad.xiaomi.com
 full:doubleclick-cn.net
 full:dsp-x.jd.com
 full:dsp.fcbox.com
+full:dsplog-adnet.vivo.com.cn
 full:dxp.baidu.com
 full:e.ad.xiaomi.com
 full:eclick.baidu.com
@@ -354,7 +359,6 @@ full:iadctest.qwapi.com
 full:iadmoo.apple.com
 full:iadmusicmat.music.126.net
 full:iadsdk.apple.com
-full:iadworkbench.apple.com
 full:ifs.tanx.com
 full:ii.gdt.qq.com
 full:image-ad.sm.cn
@@ -566,6 +570,7 @@ full:trace.aqyad.com
 full:tracelog-debug.aiclk.com
 full:tracelog-debug.qquanquan.com
 full:tracelog-debug.yunxish.com
+full:tracking-adnet.vivo.com.cn
 full:tuiguang.meitu.com
 full:tvapp.hpplay.cn
 full:tx-ad.a.yximgs.com

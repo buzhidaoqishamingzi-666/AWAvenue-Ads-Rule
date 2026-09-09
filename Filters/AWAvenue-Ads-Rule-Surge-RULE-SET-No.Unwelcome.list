@@ -1,9 +1,9 @@
 #Title: AWAvenue Ads Rule (No.Unwelcome)
 #--------------------------------------
-#Total lines: 852
+#Total lines: 856
 #Version: 1.7.6-release
-#Update time: 2026-09-08 21:10:07 UTC+8
-#Update content: 新增拦截微博/美图/百度等广告与隐私上报域名#214，感谢@VJMOD
+#Update time: 2026-09-09 23:35:30 UTC+8
+#Update content: 移除广告主投放后台域名ad.weibo.com与iadworkbench.apple.com，此类后台不属拦截范围
 
 #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -49,7 +49,6 @@ DOMAIN,ad.shunchangzhixing.com
 DOMAIN,ad.tencentmusic.com
 DOMAIN,ad.toutiao.com
 DOMAIN,ad.v3mh.com
-DOMAIN,ad.weibo.com
 DOMAIN,ad.winrar.com.cn
 DOMAIN,ad.ximalaya.com
 DOMAIN,ad.xunkids.com
@@ -80,9 +79,11 @@ DOMAIN,adjust.cn
 DOMAIN,adjust.com
 DOMAIN,adks.hpplay.cn
 DOMAIN,adlink-api.huan.tv
+DOMAIN,adlog.vivo.com.cn
 DOMAIN,adm.funshion.com
 DOMAIN,admarketing.yahoo.net
 DOMAIN,admobile.top
+DOMAIN,adreq.vivo.com.cn
 DOMAIN,ads-api-o.api.leiniao.com
 DOMAIN,ads-api.tiktok.com
 DOMAIN,ads-api.twitter.com
@@ -191,7 +192,9 @@ DOMAIN,adx.appsdk.com.cn
 DOMAIN,adx.sogaha.cn
 DOMAIN,adx.tuia.cn
 DOMAIN,adxlog-adnet.vivo.com.cn
+DOMAIN,adxlog.vivo.com.cn
 DOMAIN,adxserver.ad.cmvideo.cn
+DOMAIN,adxstatic.vivo.com.cn
 DOMAIN,aegis.qq.com
 DOMAIN,aem.dentsuchina.cn
 DOMAIN,afs.googlesyndication.com
@@ -283,6 +286,7 @@ DOMAIN,bj-td-menta-01-callback.advlion.com
 DOMAIN,bj.ad.track.66mobi.com
 DOMAIN,books-analytics-events.apple.com
 DOMAIN,bootpreload.uve.weibo.com
+DOMAIN,brandadsstatic.vivo.com.cn
 DOMAIN,browser.events.data.msn.cn
 DOMAIN,browser.events.data.msn.com
 DOMAIN,bsrv.qq.com
@@ -350,6 +354,7 @@ DOMAIN,dlogs.bwton.com
 DOMAIN,doubleclick-cn.net
 DOMAIN,dsp-x.jd.com
 DOMAIN,dsp.fcbox.com
+DOMAIN,dsplog-adnet.vivo.com.cn
 DOMAIN,dualstack-logs.amap.com
 DOMAIN,dxp.baidu.com
 DOMAIN,e.ad.xiaomi.com
@@ -427,7 +432,6 @@ DOMAIN,iadctest.qwapi.com
 DOMAIN,iadmoo.apple.com
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadsdk.apple.com
-DOMAIN,iadworkbench.apple.com
 DOMAIN,ifacelog.iqiyi.com
 DOMAIN,ifs.tanx.com
 DOMAIN,ii.gdt.qq.com
@@ -648,7 +652,7 @@ DOMAIN,s.amazon-adsystem.com
 DOMAIN,s1.cdn-sg.advlion.com
 DOMAIN,s8t.teads.tv
 DOMAIN,saad.ms.zhangyue.net
-DOMAIN,safebrowsing.urlsec.gg.com
+DOMAIN,safebrowsing.urlsec.qq.com
 DOMAIN,samsung-com.112.2o7.net
 DOMAIN,samsungads.com
 DOMAIN,scs.openspeech.cn
@@ -752,6 +756,7 @@ DOMAIN,track.uc.cn
 DOMAIN,tracker-prd.aldi.com.cn
 DOMAIN,tracker.ai.xiaomi.com
 DOMAIN,tracker.gitee.com
+DOMAIN,tracking-adnet.vivo.com.cn
 DOMAIN,tracking.miui.com
 DOMAIN,tracking.rus.miui.com
 DOMAIN,tuiguang.meitu.com
@@ -860,4 +865,3 @@ DOMAIN-KEYWORD,-ad.sm.cn
 DOMAIN-KEYWORD,-ad.video.yximgs.com
 DOMAIN-KEYWORD,-ad.wtzw.com
 DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com
-DOMAIN-KEYWORD,-normal.zijieapi.com
