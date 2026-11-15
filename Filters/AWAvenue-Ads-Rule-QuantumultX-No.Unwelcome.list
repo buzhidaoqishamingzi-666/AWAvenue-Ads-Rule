@@ -1,14 +1,27 @@
 #Title: AWAvenue Ads Rule (No.Unwelcome)
 #--------------------------------------
-#Total lines: 879
-#Version: 1.7.8-release
-#Update time: 2026-10-22 21:27:09 UTC+8
-#Update content: 新增海信与乐播广告拦截并调整会员推广分类
+#Total lines: 887
+#Version: 1.7.9-release
+#Update time: 2026-11-15 00:37:33 UTC+8
+#Update content: 新增拦截识x、小黑盒、淘x等App的日志埋点与设备指纹上报域名10条
 
 #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
 
 
+IP-CIDR,111.20.26.186/32,reject
+IP-CIDR,112.84.130.73/32,reject
+IP-CIDR,116.142.251.100/32,reject
+IP-CIDR,116.177.251.215/32,reject
+IP-CIDR,120.77.173.114/32,reject
+IP-CIDR,123.56.23.22/32,reject
+IP-CIDR,14.29.101.160/32,reject
+IP-CIDR,14.29.101.168/32,reject
+IP-CIDR,14.29.101.169/32,reject
+IP-CIDR,182.254.116.116/32,reject
+IP-CIDR,203.205.137.89/32,reject
+IP-CIDR,218.77.192.51/32,reject
+IP-CIDR,38.190.225.166/32,reject
 DOMAIN,1500020991.vodplayer.wxamedia.com,reject
 DOMAIN,1500022744.vodplayer.wxamedia.com,reject
 DOMAIN,1500026601.vodplayer.wxamedia.com,reject
@@ -88,17 +101,16 @@ DOMAIN,admarketing.yahoo.net,reject
 DOMAIN,admobile.top,reject
 DOMAIN,adreq.vivo.com.cn,reject
 DOMAIN,ads-api-o.api.leiniao.com,reject
-DOMAIN,ads-api.tiktok.com,reject
 DOMAIN,ads-api.twitter.com,reject
 DOMAIN,ads-img-al.xhscdn.com,reject
+DOMAIN,ads-img-bak.xhscdn.com,reject
 DOMAIN,ads-img-qc.xhscdn.com,reject
-DOMAIN,ads-jp.tiktok.com,reject
 DOMAIN,ads-marketing-vivofs.vivo.com.cn,reject
 DOMAIN,ads-sdk-api.ranfenghd.com,reject
-DOMAIN,ads-sg.tiktok.com,reject
 DOMAIN,ads-shopping.shouqianba.com,reject
 DOMAIN,ads-video-al.xhscdn.com,reject
 DOMAIN,ads-video-qc.xhscdn.com,reject
+DOMAIN,ads-vp5.xhscdn.com,reject
 DOMAIN,ads.95516.com,reject
 DOMAIN,ads.adfunlink.com,reject
 DOMAIN,ads.auctions.yahoo.com,reject
@@ -116,7 +128,6 @@ DOMAIN,ads.pubmatic.com,reject
 DOMAIN,ads.raidrive.com,reject
 DOMAIN,ads.servebom.com,reject
 DOMAIN,ads.service.kugou.com,reject
-DOMAIN,ads.tiktok.com,reject
 DOMAIN,ads.v3mh.com,reject
 DOMAIN,ads.youtube.com,reject
 DOMAIN,ads.zhinengxiyifang.cn,reject
@@ -153,7 +164,6 @@ DOMAIN,adsmind.gdtimg.com,reject
 DOMAIN,adsmind.ugdtimg.com,reject
 DOMAIN,adsmoloco.com,reject
 DOMAIN,adsp.xunlei.com,reject
-DOMAIN,adspecs.yahoo.com,reject
 DOMAIN,adstat.izuiyou.com,reject
 DOMAIN,adstats.tencentmusic.com,reject
 DOMAIN,adstextview.qq.com,reject
@@ -161,9 +171,7 @@ DOMAIN,adstore-1252524079.file.myqcloud.com,reject
 DOMAIN,adstore-index-1252524079.file.myqcloud.com,reject
 DOMAIN,adstrategy.biz.weibo.com,reject
 DOMAIN,adstudio-assets.scdn.co,reject
-DOMAIN,adstudio.spotify.com,reject
 DOMAIN,adtago.s3.amazonaws.com,reject
-DOMAIN,adtech.yahooinc.com,reject
 DOMAIN,adtrack.quark.cn,reject
 DOMAIN,adtracker.adfunlink.com,reject
 DOMAIN,adtracker.medproad.com,reject
@@ -171,12 +179,6 @@ DOMAIN,adui.tg.meitu.com,reject
 DOMAIN,adv-api.shenshiads.com,reject
 DOMAIN,adv.sec.intl.miui.com,reject
 DOMAIN,adv.sec.miui.com,reject
-DOMAIN,advertising-api-eu.amazon.com,reject
-DOMAIN,advertising-api-fe.amazon.com,reject
-DOMAIN,advertising-api.amazon.com,reject
-DOMAIN,advertising.apple.com,reject
-DOMAIN,advertising.yahoo.com,reject
-DOMAIN,advertising.yandex.ru,reject
 DOMAIN,advice-ads.s3.amazonaws.com,reject
 DOMAIN,adview.cn,reject
 DOMAIN,adx-ad.smart-tv.cn,reject
@@ -258,6 +260,7 @@ DOMAIN,api.touch-moblie.com,reject
 DOMAIN,api.yfanads.com,reject
 DOMAIN,api5-normal-quic-lf.ixigua.com,reject
 DOMAIN,apiyd.my91app.com,reject
+DOMAIN,apmplus.volces.com,reject
 DOMAIN,app-measurement.com,reject
 DOMAIN,applog-perf.uc.cn,reject
 DOMAIN,applog.lc.quark.cn,reject
@@ -284,7 +287,6 @@ DOMAIN,beizi.biz,reject
 DOMAIN,bes-mtj.baidu.com,reject
 DOMAIN,bgg.baidu.com,reject
 DOMAIN,bianxian.com,reject
-DOMAIN,bingads.microsoft.com,reject
 DOMAIN,biz.weibo.com,reject
 DOMAIN,bj-td-menta-01-callback.advlion.com,reject
 DOMAIN,bj.ad.track.66mobi.com,reject
@@ -324,6 +326,7 @@ DOMAIN,click.googleanalytics.com,reject
 DOMAIN,click.liftoff.io,reject
 DOMAIN,click.oneplus.cn,reject
 DOMAIN,click4.chinaliftoff.io,reject
+DOMAIN,client-upload.cn-shanghai.log.aliyuncs.com,reject
 DOMAIN,clog.miguvideo.com,reject
 DOMAIN,cloooud.com,reject
 DOMAIN,cn-api.anythinktech.com,reject
@@ -341,7 +344,6 @@ DOMAIN,cpc-service-square.aiclk.com,reject
 DOMAIN,cpro.baidustatic.com,reject
 DOMAIN,crash2.zhihu.com,reject
 DOMAIN,crashlyticsreports-pa.googleapis.com,reject
-DOMAIN,csjplatform.com,reject
 DOMAIN,d.applovin.com,reject
 DOMAIN,d.applvn.com,reject
 DOMAIN,da.anythinktech.com,reject
@@ -361,6 +363,7 @@ DOMAIN,doubleclick-cn.net,reject
 DOMAIN,dsp-x.jd.com,reject
 DOMAIN,dsp.fcbox.com,reject
 DOMAIN,dsplog-adnet.vivo.com.cn,reject
+DOMAIN,du-app.cn-hangzhou.log.aliyuncs.com,reject
 DOMAIN,dualstack-logs.amap.com,reject
 DOMAIN,dxp.baidu.com,reject
 DOMAIN,e.ad.xiaomi.com,reject
@@ -369,6 +372,7 @@ DOMAIN,edge.ads.twitch.tv,reject
 DOMAIN,ef-dongfeng.tanx.com,reject
 DOMAIN,engine.dcad01.com,reject
 DOMAIN,entry.baidu.com,reject
+DOMAIN,errnewlog.umeng.com,reject
 DOMAIN,et-eus.w.inmobi.com,reject
 DOMAIN,event.tradplusad.com,reject
 DOMAIN,events-drcn.op.dbankcloud.cn,reject
@@ -381,6 +385,7 @@ DOMAIN,feed-image.baidu.com,reject
 DOMAIN,file.daihuo.qq.com,reject
 DOMAIN,firebaselogging-pa.googleapis.com,reject
 DOMAIN,flurry.com,reject
+DOMAIN,fp-it.fengkongcloud.com,reject
 DOMAIN,frontend-perf-service.e.kuaishou.com,reject
 DOMAIN,fxgate.baidu.com,reject
 DOMAIN,g-adnet.hiaiabc.com,reject
@@ -474,6 +479,7 @@ DOMAIN,ks.ferlytc.com,reject
 DOMAIN,l6.fancyapi.com,reject
 DOMAIN,launcher.smart-tv.cn,reject
 DOMAIN,launcherimg.smart-tv.cn,reject
+DOMAIN,lf-event-manager.oceanengine.com,reject
 DOMAIN,lf3-ad-union-sdk.pglstatp-toutiao.com,reject
 DOMAIN,lf6-ad-union-sdk.pglstatp-toutiao.com,reject
 DOMAIN,lftxali.fancyapi.com,reject
@@ -488,6 +494,7 @@ DOMAIN,log-api-mn.huxiu.com,reject
 DOMAIN,log-api.huxiu.com,reject
 DOMAIN,log-api.pangolin-sdk-toutiao-b.com,reject
 DOMAIN,log-api.pangolin-sdk-toutiao.com,reject
+DOMAIN,log-auth.zztfly.com,reject
 DOMAIN,log-report.com,reject
 DOMAIN,log-sdk.gifshow.com,reject
 DOMAIN,log-sdk.ksapisrv.com,reject
@@ -709,6 +716,8 @@ DOMAIN,sentry.music.163.com,reject
 DOMAIN,service.vmos.cn,reject
 DOMAIN,sf16-static.i18n-pglstatp.com,reject
 DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,reject
+DOMAIN,shihuo-new.log.shihuocdn.cn,reject
+DOMAIN,shihuo.log.shihuocdn.cn,reject
 DOMAIN,shouji.sogou.com,reject
 DOMAIN,sigmob.com,reject
 DOMAIN,skdisplay.jd.com,reject
@@ -799,9 +808,8 @@ DOMAIN,umengjmacs.m.taobao.com,reject
 DOMAIN,umini.shujupie.com,reject
 DOMAIN,union-mlog.bigda.com,reject
 DOMAIN,union-record.oss-cn-zhangjiakou.aliyuncs.com,reject
-DOMAIN,union.baidu.cn,reject
-DOMAIN,union.baidu.com,reject
 DOMAIN,unityads.unity3d.com,reject
+DOMAIN,upc.zztfly.com,reject
 DOMAIN,update0.aiclk.com,reject
 DOMAIN,us.l.qq.com,reject
 DOMAIN,usr-api.aiclk.com,reject
